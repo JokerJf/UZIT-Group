@@ -1,0 +1,19 @@
+.tarrifs{
+  width: 100%; 
+  height: fit-content;
+  // background: url("/tarrifs.png");
+  // background-position: right;
+  // background-repeat: no-repeat;
+  padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .tarrifs {
+    padding: 20px;
+  }
+} 
+@media screen and (max-width: 450px) {
+  .tarrifs {
+    padding: 10px;
+  }
+} 

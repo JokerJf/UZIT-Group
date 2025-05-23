@@ -1,0 +1,150 @@
+.help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+
+  .model {
+    background: #fff;
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 3px 8px 17px #fff3;
+    gap: 50px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+
+    .text {
+      width: 60%;
+
+      .title {
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 1;
+      }
+
+      .subtitle {
+        margin-top: 20px;
+        width: 80%;
+      }
+    }
+
+    .form {
+      width: 40%;
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+
+        input {
+          border: 1px solid #262626;
+          border-radius: 8px;
+          padding: 5px 15px;
+        }
+
+        .btn {
+          background: #4c9700;
+          color: #fff;
+          padding: 8px;
+          font-size: 18px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .help {
+    .model {
+      width: auto;
+
+      .text {
+        .title {}
+
+        .subtitle {}
+      }
+
+      .form {
+        form {
+          input {}
+
+          .btn {}
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .help {
+    .model {
+      .text {
+        .title {
+          font-size: 38px;
+          line-height: 40px;
+          margin-bottom: 10px;
+        }
+
+        .subtitle {
+          font-size: 14px;
+        }
+      }
+
+      .form {
+        form {
+          input {}
+
+          .btn {}
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .help {
+    .model {
+      display: flex;
+      flex-direction: column;
+
+      .text {
+        width: auto;
+        .title {}
+
+        .subtitle {}
+      }
+
+      .form {
+        width: auto;
+        form {
+          input {}
+
+          .btn {}
+        }
+      }
+    }
+  }
+}
+
+
+// .help {
+//   .model {
+//     .text {
+//       .title {}
+
+//       .subtitle {}
+//     }
+
+//     .form {
+//       form {
+//         input {}
+
+//         .btn {}
+//       }
+//     }
+//   }
+// }

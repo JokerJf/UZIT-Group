@@ -1,0 +1,30 @@
+.wrapperMap {
+  margin-top: 100px;
+
+  .title {
+    font-size: 72px;
+    font-weight: 600;
+  }
+
+  .map {
+    margin-top: 40px;
+    border-radius: 15px;
+    height: 500px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapperMap {
+    margin-top: 50px;
+
+    .title {
+      font-size: 48px;
+    }
+
+    .map {
+      margin-top: 25px;
+      height: 350px;
+    }
+  }
+}
